@@ -324,6 +324,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &13280938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 13280939}
+  m_Layer: 0
+  m_Name: Materials
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &13280939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13280938}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 861304492}
+  - {fileID: 536157198}
+  m_Father: {fileID: 278507613}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &63043301
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,7 +503,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -527,9 +560,11 @@ GameObject:
   m_Component:
   - component: {fileID: 121301892}
   - component: {fileID: 121301891}
+  - component: {fileID: 121301896}
   - component: {fileID: 121301895}
   - component: {fileID: 121301893}
   - component: {fileID: 121301894}
+  - component: {fileID: 121301897}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -666,6 +701,44 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   uiControl: {fileID: 63043302}
+--- !u!114 &121301896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121301890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36adc706a05565d4db6c0de40340d2b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material:
+    serializedVersion: 2
+    m_Bits: 256
+  player: {fileID: 121301890}
+  mats: {fileID: 121301897}
+  solid: 0
+  once: 0
+  duration: 0.5
+  time: 0
+  chance: 0
+--- !u!114 &121301897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121301890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e804776d4b2427d4281dcdcb4db7ddb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iron: 0
+  gold: 0
+  copper: 0
+  gems: 0
 --- !u!1 &126896885
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,9 +1057,8 @@ Transform:
   m_Children:
   - {fileID: 175892657}
   - {fileID: 1595103367}
-  - {fileID: 861304492}
-  - {fileID: 536157198}
   - {fileID: 1431725201}
+  - {fileID: 13280939}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &279560093
@@ -1593,8 +1665,8 @@ GameObject:
   - component: {fileID: 536157198}
   - component: {fileID: 536157200}
   - component: {fileID: 536157199}
-  m_Layer: 0
-  m_Name: Square (5)
+  m_Layer: 8
+  m_Name: Iron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1608,12 +1680,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536157197}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.32, y: 5.12, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 44.32, y: 5.1200027, z: 11}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 278507613}
+  m_Father: {fileID: 13280939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &536157199
 BoxCollider2D:
@@ -1645,7 +1717,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1703,7 +1775,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.3490566, g: 0.34082413, b: 0.34082413, a: 1}
   m_FlipX: 0
@@ -1967,8 +2039,8 @@ GameObject:
   - component: {fileID: 861304492}
   - component: {fileID: 861304494}
   - component: {fileID: 861304493}
-  m_Layer: 0
-  m_Name: Square (1)
+  m_Layer: 8
+  m_Name: Gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1982,12 +2054,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861304491}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.34, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.34, y: 0, z: 11}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 278507613}
+  m_Father: {fileID: 13280939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &861304493
 BoxCollider2D:
@@ -2019,7 +2091,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2079,7 +2151,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+  m_Color: {r: 0.8207547, g: 0.7627574, b: 0.15873085, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2756,7 +2828,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.19166073, g: 0.6886792, b: 0.20297639, a: 1}
   m_FlipX: 0
