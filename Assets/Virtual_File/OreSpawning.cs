@@ -5,12 +5,13 @@ using UnityEngine;
 public class OreSpawning : MonoBehaviour
 {
     public int orelimit = 10;
-    public int oreSpawned = 0;
+    public int oreSpawned = 0;// 0: Iron, 1: Copper, 2: Gold
     public GameObject[] orePrefab;
     public GameObject spawnzone;
     public float ironchance;
     public float copperchance;
     public float goldchance;
+    public Teleport tp;
     public int x;
     public bool spwn = false;
     public float maxX;

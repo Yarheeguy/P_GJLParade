@@ -17,7 +17,8 @@ public class MaterialInteract : MonoBehaviour
     public float duration = 0.5f;
     public float time = 0f;
     public float chance;
-    public OreSpawning os;
+    public OreSpawning[] os;
+    public Teleport tp;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,28 +40,28 @@ public class MaterialInteract : MonoBehaviour
                     once = false;
                     IronCollect();
                     Destroy(obj.gameObject);
-                    os.oreSpawned--;
+                    os[tp.zoneID].oreSpawned--;
                 }
                 if (obj.gameObject.tag == "Gold" && once)
                 {
                     once = false;
                     GoldCollect();
                     Destroy(obj.gameObject);
-                    os.oreSpawned--;
+                    os[tp.zoneID].oreSpawned--;
                 }
                 if (obj.gameObject.tag == "Copper" && once)
                 {
                     once = false;
                     CopperCollect();
                     Destroy(obj.gameObject);
-                    os.oreSpawned--;
+                    os[tp.zoneID].oreSpawned--;
                 }
                 if (obj.gameObject.tag == "Gem" && once)
                 {
                     once = false;
                     GemsCollect();
                     Destroy(obj.gameObject);
-                    os.oreSpawned--;
+                    os[tp.zoneID].oreSpawned--;
                 }
             }
         }

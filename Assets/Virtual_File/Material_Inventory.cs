@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Material_Inventory : MonoBehaviour
@@ -9,6 +10,10 @@ public class Material_Inventory : MonoBehaviour
     public int gold;
     public int copper;
     public int gems;
+    public TextMeshProUGUI ironText;
+    public TextMeshProUGUI goldText;
+    public TextMeshProUGUI copperText;
+    public TextMeshProUGUI gemsText;
     void Start()
     {
         
@@ -17,7 +22,10 @@ public class Material_Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ironText.text = iron.ToString();
+        goldText.text = gold.ToString();
+        copperText.text = copper.ToString();
+        gemsText.text = gems.ToString();
     }
 
 }

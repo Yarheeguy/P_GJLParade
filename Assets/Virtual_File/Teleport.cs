@@ -8,6 +8,7 @@ public class Teleport : MonoBehaviour
     public GameObject[] teleportPoints;
     public int zoneID=0;
     public int idt = 0;
+    public bool teleporting = false;
     public Transitions trs;
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,8 @@ public class Teleport : MonoBehaviour
     {
         if (idt!=zoneID)
         {
-           zoneID=idt;
+            teleporting = true;
+            zoneID =idt;
             trs.CrossFade();
         }
     }

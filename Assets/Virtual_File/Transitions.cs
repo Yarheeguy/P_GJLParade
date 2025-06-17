@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,6 +18,7 @@ public class Transitions : MonoBehaviour
     public bool fout=false;
     public bool fhold = false;
     public bool tpn = false;
+    public UiControl ucl;
     public Teleport tp;
     // Start is called before the first frame update
     void Start()
@@ -41,6 +43,7 @@ public class Transitions : MonoBehaviour
             time = 0f;
             duration = 3f;
             tpn=true;
+
         }
         if (fout)
         {
@@ -51,27 +54,32 @@ public class Transitions : MonoBehaviour
     public void Zone0()
     {
         tp.idt = 0;
+        ucl.Close();
         tp.TeleportPlayer();
     }
 
     public void Zone1()
     {
         tp.idt = 1;
+        ucl.Close();
         tp.TeleportPlayer();
     }
     public void Zone2()
     {
         tp.idt = 2;
+        ucl.Close();
         tp.TeleportPlayer();
     }
     public void Zone3()
     {
         tp.idt = 3;
+        ucl.Close();
         tp.TeleportPlayer();
     }
     public void Zone4()
     {
         tp.idt = 4;
+        ucl.Close();
         tp.TeleportPlayer();
     }
     public void CrossFade()
@@ -104,7 +112,7 @@ public class Transitions : MonoBehaviour
     public async void FadeOUT()
     {
         transition = true;
-        if (alphacons >= 0.01)
+        if (alphacons >= 0.02)
         {
             alphacons = ((3-time)/ 3);
             Image.color = new Color(0, 0, 0, alphacons);
@@ -115,6 +123,8 @@ public class Transitions : MonoBehaviour
             fout = false;
             CF.SetActive(false);
             tpn=false;
+            transition = false;
+            tp.teleporting = false;
         }
     }
     public void Delay()
