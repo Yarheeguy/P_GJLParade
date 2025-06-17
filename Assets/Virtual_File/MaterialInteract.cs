@@ -17,6 +17,7 @@ public class MaterialInteract : MonoBehaviour
     public float duration = 0.5f;
     public float time = 0f;
     public float chance;
+    public OreSpawning os;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,17 +34,33 @@ public class MaterialInteract : MonoBehaviour
             Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, 1f, material);
             foreach (Collider2D obj in objects)
             {
-                if (obj.gameObject.name == "Iron"&&once)
+                if (obj.gameObject.tag == "Iron"&&once)
                 {
                     once = false;
                     IronCollect();
                     Destroy(obj.gameObject);
+                    os.oreSpawned--;
                 }
-                if (obj.gameObject.name == "Gold" && once)
+                if (obj.gameObject.tag == "Gold" && once)
                 {
                     once = false;
                     GoldCollect();
                     Destroy(obj.gameObject);
+                    os.oreSpawned--;
+                }
+                if (obj.gameObject.tag == "Copper" && once)
+                {
+                    once = false;
+                    CopperCollect();
+                    Destroy(obj.gameObject);
+                    os.oreSpawned--;
+                }
+                if (obj.gameObject.tag == "Gem" && once)
+                {
+                    once = false;
+                    GemsCollect();
+                    Destroy(obj.gameObject);
+                    os.oreSpawned--;
                 }
             }
         }
@@ -89,6 +106,34 @@ public class MaterialInteract : MonoBehaviour
                 {
                     mats.gold += 1;
                 }
+            }
+        }
+    }
+    public void CopperCollect()
+    {
+        chance = UnityEngine.Random.Range(0f, 1f);
+        if (chance > 0f)
+        {
+            mats.copper += 1;
+            if (chance > 0.5f)
+            {
+                mats.copper += 1;
+                if (chance > 0.8f)
+                {
+                    mats.copper += 1;
+                }
+            }
+        }
+    }
+    public void GemsCollect()
+    {
+        chance = UnityEngine.Random.Range(0f, 1f);
+        if (chance > 0f)
+        {
+            mats.gems += 1;
+            if (chance > 0.78f)
+            {
+                mats.gems += 1;
             }
         }
     }
