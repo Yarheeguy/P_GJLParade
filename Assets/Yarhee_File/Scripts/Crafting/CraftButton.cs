@@ -12,6 +12,10 @@ public class CraftButton : MonoBehaviour
     [SerializeField] int Copperprice;
     [SerializeField] int Gemprice;
 
+    [SerializeField] GameObject ThinginBuilding;
+
+    [SerializeField] GameObject errortext;
+
 
 
     public void craftitem()
@@ -24,11 +28,13 @@ public class CraftButton : MonoBehaviour
             findInventory.GetComponent<Material_Inventory>().gems = findInventory.GetComponent<Material_Inventory>().gems - Gemprice;
 
             gameObject.GetComponent<Button>().interactable = false;
-            
+            ThinginBuilding.GetComponent<Button>().interactable = true;
+
         }
         else
         {
-
+            errortext.SetActive(true);
+            errortext.GetComponent<ErrorPopup>().timer = 0;
         }
     }
 
