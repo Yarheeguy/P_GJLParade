@@ -3,17 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Iron
+  - Gold
+  - Gem
+  - Copper
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interactable
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Walkable
+  - Player
+  - Material
   - 
   - 
   - 
