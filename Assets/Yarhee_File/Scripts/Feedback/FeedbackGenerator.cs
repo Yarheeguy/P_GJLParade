@@ -7,6 +7,9 @@ public class FeedbackGenerator : MonoBehaviour
 
     [SerializeField] GameObject finddata;
 
+    [SerializeField] GameObject Closeresults;
+    [SerializeField] GameObject Displayfeedback;
+
     [SerializeField] int feedback1type;
     [SerializeField] int feedback2type;
     [SerializeField] int feedback3type;
@@ -37,11 +40,20 @@ public class FeedbackGenerator : MonoBehaviour
     [SerializeField] int markKeyword3;
 
 
-    //delete this later
-    private void Start()
-    {
-        generateFeedback();
-    }
+
+    [SerializeField] public string[] username;
+
+    [SerializeField] public int usernamenumber1;
+    [SerializeField] public int usernamenumber2;
+    [SerializeField] public int usernamenumber3;
+
+    [SerializeField] int maxusernames;
+
+    [SerializeField] public int commentnumber1;
+    [SerializeField] public int commentnumber2;
+    [SerializeField] public int commentnumber3;
+
+    [SerializeField] int maxcomment;
 
 
 
@@ -114,7 +126,19 @@ public class FeedbackGenerator : MonoBehaviour
             finddata.GetComponent<FeedbackData>().feedback3Type = "Extra";
         }
 
+        usernamenumber1 = Random.Range(0, maxusernames);
+        usernamenumber2 = Random.Range(0, maxusernames);
+        usernamenumber3 = Random.Range(0, maxusernames);
+
+        commentnumber1 = Random.Range(0, maxcomment);
+        commentnumber2 = Random.Range(0, maxcomment);
+        commentnumber3 = Random.Range(0, maxcomment);
 
 
+
+
+        Closeresults.SetActive(false);
+        Displayfeedback.SetActive(true);
+        
     }
 }

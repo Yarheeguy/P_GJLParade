@@ -12,6 +12,9 @@ public class RobotBCraftingTransition : MonoBehaviour
     [SerializeField] GameObject items;
 
 
+    [SerializeField] GameObject publishResult;
+    [SerializeField] GameObject findpubish;
+
 
     public void EnterRobotcrafting()
     {
@@ -28,5 +31,13 @@ public class RobotBCraftingTransition : MonoBehaviour
         robotB.SetActive(false);
         crafting.SetActive(true);
         items.SetActive(true);
+    }
+
+    public void EnterPublishing()
+    {
+        robot.SetActive(false);
+        robotB.SetActive(false);
+        findpubish.GetComponent<FindResult>().GetResult();
+        publishResult.SetActive(true);
     }
 }

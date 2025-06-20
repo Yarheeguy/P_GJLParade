@@ -14,4 +14,7 @@ public class FeedbackData : MonoBehaviour
     [SerializeField] public string feedback3Type;
     [SerializeField] public string Keyword3;
 
+
+    [SerializeField] public float profit;
+
 }

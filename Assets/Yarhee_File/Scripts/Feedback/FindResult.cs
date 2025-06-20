@@ -24,6 +24,13 @@ public class FindResult : MonoBehaviour
 
     [SerializeField] public int negative;
 
+    [SerializeField] float profit1;
+    [SerializeField] float profit2;
+    [SerializeField] float profit3;
+
+    [SerializeField] float minprofitadd;
+    [SerializeField] float maxprofitadd;
+
 
 
     public void GetResult()
@@ -323,6 +330,38 @@ public class FindResult : MonoBehaviour
         {
             negative = negative + 1;
         }
+
+
+        if(positive == 1 & negative == 2)
+        {
+            profit1 = Random.Range(minprofitadd, maxprofitadd);
+            profit2 = 0;
+            profit3 = 0;
+        }
+
+
+        if (positive == 2 & negative == 1)
+        {
+            profit1 = Random.Range(minprofitadd, maxprofitadd);
+            profit2 = Random.Range(minprofitadd, maxprofitadd);
+            profit3 = 0;
+        }
+
+        if (positive == 3)
+        {
+            profit1 = Random.Range(minprofitadd, maxprofitadd);
+            profit2 = Random.Range(minprofitadd, maxprofitadd);
+            profit3 = Random.Range(minprofitadd, maxprofitadd);
+        }
+
+        if (negative == 0)
+        {
+            profit1 = 0;
+            profit2 = 0;
+            profit3 = 0;
+        }
+
+        findFeedbackData.GetComponent<FeedbackData>().profit = profit1 + profit2 + profit3;
 
     }
 
