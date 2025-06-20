@@ -18,6 +18,8 @@ public class OreSpawning : MonoBehaviour
     public float minX;
     public float maxY;
     public float minY;
+    public bool once;
+    float time;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,9 +33,9 @@ public class OreSpawning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!spwn)
-        {
-            while (oreSpawned < 10)
+        delay();
+
+            while (oreSpawned < 10&&once)
             {
                 float posx = Random.Range(minX, maxX);
                 float posy = Random.Range(minY, maxY);
@@ -58,13 +60,20 @@ public class OreSpawning : MonoBehaviour
 
                 Instantiate(orePrefab[x], spawnPosition, Quaternion.identity);
                 oreSpawned++;
-                spwn = true;
+                once = false;
+            }
+
+    }
+    public void delay()
+    {
+        if (!once)
+        {
+            time += Time.deltaTime;
+            if (time >= 15)
+            {
+                time = 0;
+                once = true;
             }
         }
-        if (oreSpawned ==0)
-        {
-            spwn = false;
-        }
-
     }
 }

@@ -8,6 +8,9 @@ TagManager:
   - Gold
   - Gem
   - Copper
+  - Portal
+  - Workshop
+  - Upgrade
   layers:
   - Default
   - TransparentFX

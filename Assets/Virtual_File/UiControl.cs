@@ -53,7 +53,7 @@ public class UiControl : MonoBehaviour
     }
     public void Open()
     {
-       zoneui.SetActive(true);
+        zoneui.SetActive(true);
         active = true;
 
     }
