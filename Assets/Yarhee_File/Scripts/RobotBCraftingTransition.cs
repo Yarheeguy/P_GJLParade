@@ -15,6 +15,8 @@ public class RobotBCraftingTransition : MonoBehaviour
     [SerializeField] GameObject publishResult;
     [SerializeField] GameObject findpubish;
 
+    [SerializeField] GameObject feedbacklooparround;
+
 
     public void EnterRobotcrafting()
     {
@@ -37,7 +39,19 @@ public class RobotBCraftingTransition : MonoBehaviour
     {
         robot.SetActive(false);
         robotB.SetActive(false);
+        findpubish.GetComponent<FindResult>().positive = 0;
+        findpubish.GetComponent<FindResult>().negative = 0;
+        findpubish.GetComponent<FindResult>().Feedback1Result = false;
+        findpubish.GetComponent<FindResult>().Feedback2Result = false;
+        findpubish.GetComponent<FindResult>().Feedback3Result = false;
         findpubish.GetComponent<FindResult>().GetResult();
         publishResult.SetActive(true);
+    }
+
+    public void LoopReturn()
+    {
+        robot.SetActive(true);
+        robotB.SetActive(true);
+        feedbacklooparround.SetActive(false);
     }
 }

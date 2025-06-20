@@ -44,12 +44,12 @@ public class FeedbackDisplay : MonoBehaviour
         username3.GetComponent<TextMeshProUGUI>().text = finddata.GetComponent<FeedbackGenerator>().username[finddata.GetComponent<FeedbackGenerator>().usernamenumber3];
 
 
-        feedbacktextbox1.GetComponent<TextMeshProUGUI>().text = finddata.GetComponent<FeedbackData>().Keyword1;
-        feedbacktextbox2.GetComponent<TextMeshProUGUI>().text = finddata.GetComponent<FeedbackData>().Keyword2;
-        feedbacktextbox3.GetComponent<TextMeshProUGUI>().text = finddata.GetComponent<FeedbackData>().Keyword3;
+        feedbacktextbox1.GetComponent<TextMeshProUGUI>().text = finddata.GetComponent<FeedbackGenerator>().keycomment1;
+        feedbacktextbox2.GetComponent<TextMeshProUGUI>().text = finddata.GetComponent<FeedbackGenerator>().keycomment2;
+        feedbacktextbox3.GetComponent<TextMeshProUGUI>().text = finddata.GetComponent<FeedbackGenerator>().keycomment3;
 
 
-        if(findresult.GetComponent<FindResult>().positive == 3)
+        if (findresult.GetComponent<FindResult>().positive == 3)
         {
             resultimage1.GetComponent<Image>().sprite = imagepositive;
             resultimage2.GetComponent<Image>().sprite = imagepositive;
