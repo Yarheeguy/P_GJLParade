@@ -77,6 +77,12 @@ public class UiControl : MonoBehaviour
         paused = false;
         delayed = true;
     }
+    public void SceneSwitch()
+    {
+        SaveSystem.Save();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
+        Close();
+    }
     public void Delay()
     { 
         if(delayed)

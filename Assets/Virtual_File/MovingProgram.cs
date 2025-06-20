@@ -20,6 +20,7 @@ public class MovingProgram : MonoBehaviour
 
             Direction();
     }
+
     public void Direction()
     {
         xmove = Input.GetAxisRaw("Horizontal");
