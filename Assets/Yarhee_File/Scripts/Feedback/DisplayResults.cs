@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class DisplayResults : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class DisplayResults : MonoBehaviour
     [SerializeField] GameObject profit;
 
     [SerializeField] float displayprofit;
+
+
+    [SerializeField] GameObject starrating;
+    [SerializeField] Sprite[] stars;
 
 
     // Update is called once per frame
@@ -48,7 +53,7 @@ public class DisplayResults : MonoBehaviour
             responsetext.GetComponent<TextMeshProUGUI>().text = "Not what the customer wanted, Try again.";
         }
 
-
+        starrating.GetComponent<Image>().sprite = stars[findfeedbackdata.GetComponent<FeedbackData>().StarRating];
 
     }
 }

@@ -17,4 +17,6 @@ public class FeedbackData : MonoBehaviour
 
     [SerializeField] public float profit;
 
+    [SerializeField] public int StarRating;
+
 }

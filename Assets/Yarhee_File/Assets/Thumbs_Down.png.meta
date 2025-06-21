@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9f1d0b7a5d858904894c6f53e3a2d559
+guid: 17b8c88f0d3b5964b93bf3881d86984c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2737982525282095375
-    second: Sprite_Result_Positive_0
+      213: -9158476048751211860
+    second: Thumbs_Down_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite_Result_Positive_0
+      name: Thumbs_Down_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 17
-        width: 287
-        height: 288
+        x: 121
+        y: 159
+        width: 734
+        height: 735
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f019aaca9944ff520800000000000000
-      internalID: 2737982525282095375
+      spriteID: caac24eae8e86e080800000000000000
+      internalID: -9158476048751211860
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Sprite_Result_Positive_0: 2737982525282095375
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -337,6 +337,11 @@ public class FindResult : MonoBehaviour
             profit1 = Random.Range(minprofitadd, maxprofitadd);
             profit2 = 0;
             profit3 = 0;
+
+            if(findFeedbackData.GetComponent<FeedbackData>().StarRating != 0)
+            {
+                findFeedbackData.GetComponent<FeedbackData>().StarRating = findFeedbackData.GetComponent<FeedbackData>().StarRating - 1;
+            }
         }
 
 
@@ -345,6 +350,8 @@ public class FindResult : MonoBehaviour
             profit1 = Random.Range(minprofitadd, maxprofitadd);
             profit2 = Random.Range(minprofitadd, maxprofitadd);
             profit3 = 0;
+
+            findFeedbackData.GetComponent<FeedbackData>().StarRating = findFeedbackData.GetComponent<FeedbackData>().StarRating + 1;
         }
 
         if (positive == 3)
@@ -352,6 +359,8 @@ public class FindResult : MonoBehaviour
             profit1 = Random.Range(minprofitadd, maxprofitadd);
             profit2 = Random.Range(minprofitadd, maxprofitadd);
             profit3 = Random.Range(minprofitadd, maxprofitadd);
+
+            findFeedbackData.GetComponent<FeedbackData>().StarRating = findFeedbackData.GetComponent<FeedbackData>().StarRating + 2;
         }
 
         if (negative == 3)
@@ -359,6 +368,11 @@ public class FindResult : MonoBehaviour
             profit1 = 0;
             profit2 = 0;
             profit3 = 0;
+
+            if (findFeedbackData.GetComponent<FeedbackData>().StarRating !>= 1)
+            {
+                findFeedbackData.GetComponent<FeedbackData>().StarRating = findFeedbackData.GetComponent<FeedbackData>().StarRating - 2;
+            }
         }
 
         findFeedbackData.GetComponent<FeedbackData>().profit = findFeedbackData.GetComponent<FeedbackData>().profit + profit1 + profit2 + profit3;

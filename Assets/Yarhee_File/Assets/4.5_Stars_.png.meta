@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 9f1d0b7a5d858904894c6f53e3a2d559
+guid: 3b5081b1f47eca04583c82b82df13886
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2737982525282095375
-    second: Sprite_Result_Positive_0
+      213: -6856963687503266575
+    second: 4.5_Stars__0
+  - first:
+      213: 6184891989464912993
+    second: 4.5_Stars__1
+  - first:
+      213: 6658151831317311577
+    second: 4.5_Stars__2
+  - first:
+      213: -3377926565928468473
+    second: 4.5_Stars__3
+  - first:
+      213: -1628382791979218505
+    second: 4.5_Stars__4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite_Result_Positive_0
+      name: 4.5_Stars__0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 17
-        width: 287
-        height: 288
+        x: 51
+        y: 417
+        width: 165
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +126,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f019aaca9944ff520800000000000000
-      internalID: 2737982525282095375
+      spriteID: 1fc7d902bdb27d0a0800000000000000
+      internalID: -6856963687503266575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4.5_Stars__1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 415
+        width: 165
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1641736de7625d550800000000000000
+      internalID: 6184891989464912993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4.5_Stars__2
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 415
+        width: 165
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950f84e60d1866c50800000000000000
+      internalID: 6658151831317311577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4.5_Stars__3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 412
+        width: 165
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7008a707fa13f11d0800000000000000
+      internalID: -3377926565928468473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4.5_Stars__4
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 412
+        width: 165
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b948bd6a72d669e0800000000000000
+      internalID: -1628382791979218505
       vertices: []
       indices: 
       edges: []
@@ -123,7 +219,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -131,7 +227,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite_Result_Positive_0: 2737982525282095375
+      4.5_Stars__0: -6856963687503266575
+      4.5_Stars__1: 6184891989464912993
+      4.5_Stars__2: 6658151831317311577
+      4.5_Stars__3: -3377926565928468473
+      4.5_Stars__4: -1628382791979218505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
