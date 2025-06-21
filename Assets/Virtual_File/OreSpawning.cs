@@ -7,7 +7,9 @@ public class OreSpawning : MonoBehaviour
     public int orelimit = 10;
     public int oreSpawned = 0;// 0: Iron, 1: Copper, 2: Gold
     public GameObject[] orePrefab;
+    public Textures tx;
     public GameObject spawnzone;
+    public int[] variant;
     public float ironchance;
     public float copperchance;
     public float goldchance;
@@ -57,19 +59,49 @@ public class OreSpawning : MonoBehaviour
                         }
                     }
                 }
+                if(x==0)
+                IronTexture();
+            else if (x == 1)
+                CopperTexture();
+            else if (x == 2)
+                GoldTexture();
+            else if (x == 3)
+                CrystalTexture();
 
-                Instantiate(orePrefab[x], spawnPosition, Quaternion.identity);
+
+        Instantiate(orePrefab[x], spawnPosition, Quaternion.identity);
                 oreSpawned++;
                 once = false;
             }
 
+    }
+    public void IronTexture()
+    {
+        variant[x]= Random.Range(0, tx.ironvar.Length);
+        orePrefab[x].GetComponent<SpriteRenderer>().sprite = tx.ironvar[variant[x]];
+    }
+    public void CopperTexture()
+    {
+        variant[x] = Random.Range(0, tx.coppervar.Length);
+        orePrefab[x].GetComponent<SpriteRenderer>().sprite = tx.coppervar[variant[x]];
+
+    }
+    public void GoldTexture()
+    {
+        variant[x] = Random.Range(0, tx.goldvar.Length);
+        orePrefab[x].GetComponent<SpriteRenderer>().sprite = tx.goldvar[variant[x]];
+    }
+    public void CrystalTexture()
+    {
+        variant[x] = Random.Range(0, tx.crystalvar.Length);
+        orePrefab[x].GetComponent<SpriteRenderer>().sprite = tx.crystalvar[variant[x]];
     }
     public void delay()
     {
         if (!once)
         {
             time += Time.deltaTime;
-            if (time >= 15)
+            if (time >= 3)
             {
                 time = 0;
                 once = true;
