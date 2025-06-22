@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Iron_Ore2_0: 8790488120312552901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

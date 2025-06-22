@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FeedbackData : MonoBehaviour
 {
@@ -24,6 +25,11 @@ public class FeedbackData : MonoBehaviour
         if(StarRating < 0)
         {
             StarRating = 0;
+        }
+
+        if(StarRating >= 5)
+        {
+            SceneManager.LoadScene("WinningScene");
         }
     }
 }

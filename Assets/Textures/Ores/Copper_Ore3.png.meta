@@ -202,7 +202,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Copper_Ore3_0: -76193391828408658
+      Copper_Ore3_1: -2982836052776408847
+      Copper_Ore3_2: 2972753415551427744
+      Copper_Ore3_3: 7644870250059239814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

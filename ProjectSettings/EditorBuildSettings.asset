@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Virtual_File/Main Menu.unity
     guid: 94b176916367c854f9c8aba0a278f1df
+  - enabled: 1
+    path: Assets/Yarhee_File/WinningScene.unity
+    guid: 2fbe13e4a03a107478e1844960a708fc
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

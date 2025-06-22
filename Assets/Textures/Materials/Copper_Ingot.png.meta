@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Copper_Ingot_0: 9027471841030609063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
