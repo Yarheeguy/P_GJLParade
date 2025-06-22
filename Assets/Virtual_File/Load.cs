@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Load : MonoBehaviour
 {
@@ -9,6 +10,11 @@ public class Load : MonoBehaviour
     public UnlockingAreas[] ula;
     public Material_Inventory MI;
     public Teleport tp;
+    public Button[] HeadB;
+    public Button[] BodyB;
+    public Button[] ArmsB;
+    public Button[] LegsB;
+    public Button[] EyesB;
     public int[] upgradeid;
     // Start is called before the first frame update
     void Start()
@@ -58,10 +64,16 @@ public class Load : MonoBehaviour
             }
             // Add more conditions as needed for other upgrade IDs
         }
+        
 
     }
     public void Save(ref PlayerSaveData data)
     {
+        data.headid = new int[5];
+        data.bodyid = new int[5];
+        data.armsid = new int[5];
+        data.legsid = new int[5];
+        data.eyesid = new int[5];
         data.upgradeid = new int[upgradeid.Length];
         data.playerpos = player.transform.position;
         data.iron = MI.iron;
@@ -74,6 +86,49 @@ public class Load : MonoBehaviour
         for (int i = 0; i < upgradeid.Length; i++)
         {
              data.upgradeid[i] = upgradeid[i];
+        }
+        for (int i = 0; i < 5; i++)
+        {
+            if (HeadB[i].interactable)
+            {
+                data.headid[i] = 1; 
+            }
+            else
+            {
+                data.headid[i] = 0; 
+            }
+            if (BodyB[i].interactable)
+            {
+                data.bodyid[i] = 1;
+            }
+            else
+            {
+                data.bodyid[i] = 0;
+            }
+            if (ArmsB[i].interactable)
+            {
+                data.armsid[i] = 1;
+            }
+            else
+            {
+                data.armsid[i] = 0;
+            }
+            if (LegsB[i].interactable)
+            {
+                data.legsid[i] = 1;
+            }
+            else
+            {
+                data.legsid[i] = 0;
+            }
+            if (EyesB[i].interactable)
+            {
+                data.eyesid[i] = 1;
+            }
+            else
+            {
+                data.eyesid[i] = 0;
+            }
         }
 
     }
@@ -103,6 +158,49 @@ public class Load : MonoBehaviour
             }
             // Add more conditions as needed for other upgrade IDs
         }
+        for (int i = 0; i < 5; i++)
+        {
+            if (data.headid[i] == 1)
+            {
+                HeadB[i].interactable = true;
+            }
+            else
+            {
+                HeadB[i].interactable = false;
+            }
+            if (data.bodyid[i] == 1)
+            {
+                BodyB[i].interactable = true;
+            }
+            else
+            {
+                BodyB[i].interactable = false;
+            }
+            if (data.armsid[i] == 1)
+            {
+                ArmsB[i].interactable = true;
+            }
+            else
+            {
+                ArmsB[i].interactable = false;
+            }
+            if (data.legsid[i] == 1)
+            {
+                LegsB[i].interactable = true;
+            }
+            else
+            {
+                LegsB[i].interactable = false;
+            }
+            if (data.eyesid[i] == 1)
+            {
+                EyesB[i].interactable = true;
+            }
+            else
+            {
+                EyesB[i].interactable = false;
+            }
+        }
     }
     
 }
@@ -118,4 +216,9 @@ public struct PlayerSaveData
     public int money;
     public float review;
     public int[] upgradeid;
+    public int[] headid;
+    public int[] bodyid;
+    public int[] armsid;
+    public int[] legsid;
+    public int[] eyesid;
 }

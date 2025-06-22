@@ -7,7 +7,7 @@ public class RobotBCraftingTransition : MonoBehaviour
 
     [SerializeField] GameObject robot;
     [SerializeField] GameObject robotB;
-
+    public DisplayResults DR;
     [SerializeField] GameObject crafting;
     [SerializeField] GameObject items;
 
@@ -23,7 +23,7 @@ public class RobotBCraftingTransition : MonoBehaviour
         robot.SetActive(true);
         robotB.SetActive(true);
         crafting.SetActive(false);
-        items.SetActive(false);
+        //items.SetActive(false);
 
     }
 
@@ -32,11 +32,12 @@ public class RobotBCraftingTransition : MonoBehaviour
         robot.SetActive(false);
         robotB.SetActive(false);
         crafting.SetActive(true);
-        items.SetActive(true);
+        //items.SetActive(true);
     }
 
     public void EnterPublishing()
     {
+        DR.once = true;
         robot.SetActive(false);
         robotB.SetActive(false);
         findpubish.GetComponent<FindResult>().positive = 0;

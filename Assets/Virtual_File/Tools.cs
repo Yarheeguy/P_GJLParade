@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
-using UnityEditor.Build;
 using UnityEngine;
 
 public class Tools : MonoBehaviour
 {
     public bool hit;
     public GameObject player;
+    public GameObject items;
     public LayerMask interact;
     public GameObject[] workUI;
     public bool working;
@@ -24,7 +24,7 @@ public class Tools : MonoBehaviour
         hit = Physics2D.Raycast(player.transform.position, Vector2.down, 1f, interact);
         if(hit)
         {
-            Collider2D col = Physics2D.OverlapCircle(player.transform.position, 0.5f, interact);
+            Collider2D col = Physics2D.OverlapCircle(player.transform.position, 2f, interact);
             if(col.gameObject.tag == "Upgrade")
             {
                 toolid = 1;
@@ -41,18 +41,27 @@ public class Tools : MonoBehaviour
             if (toolid == 1)
             {
                 workUI[0].SetActive(true);
+                items.SetActive(false);
                 working = true;
             }
             else if (toolid == 2)
             {
                 workUI[1].SetActive(true);
+                items.SetActive(false);
                 working = true;
             }
         }
         if (Input.GetKeyDown(KeyCode.Escape) && working||!hit && working)
         {
             workUI[toolid-1].SetActive(false);
+            items.SetActive(true);
             working = false;
         }
+    }
+    public void exitonreturn()
+    {
+        workUI[toolid - 1].SetActive(false);
+        items.SetActive(true);
+        working = false;
     }
 }

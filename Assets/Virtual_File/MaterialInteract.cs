@@ -30,7 +30,7 @@ public class MaterialInteract : MonoBehaviour
     {
         Delay();
         solid = Physics2D.Raycast(player.transform.position, Vector2.down, 1f, material);
-        if (solid && Input.GetMouseButton(1))
+        if (solid && Input.GetMouseButton(0))
         {
             Collider2D[] objects = Physics2D.OverlapCircleAll(transform.position, 1f, material);
             foreach (Collider2D obj in objects)

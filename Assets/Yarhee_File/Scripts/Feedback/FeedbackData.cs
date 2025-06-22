@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class FeedbackData : MonoBehaviour
 {
-
+    
     [SerializeField] public string feedback1Type;
     [SerializeField] public string Keyword1;
 

@@ -16,8 +16,8 @@ public class MovingProgram : MonoBehaviour
     void Start()
     {
         image.SetActive(false);
+        Time.timeScale = 1f;
     }
-
     // Update is called once per frame
     void Update()
     {

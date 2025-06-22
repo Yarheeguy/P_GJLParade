@@ -6,9 +6,10 @@ using UnityEngine.UI;
 
 public class DisplayResults : MonoBehaviour
 {
+    public Material_Inventory MI;
     [SerializeField] GameObject findresults;
     [SerializeField] GameObject findfeedbackdata;
-
+    public bool once=false;
 
     [SerializeField] GameObject responsetext;
 
@@ -26,10 +27,11 @@ public class DisplayResults : MonoBehaviour
     {
         if(findfeedbackdata.GetComponent<FeedbackData>().profit != 0)
         {
+            money();
             displayprofit = findfeedbackdata.GetComponent<FeedbackData>().profit / 1000;
         }
 
-        profit.GetComponent<TextMeshProUGUI>().text = "Profit: " + displayprofit.ToString("0.0") + "K";
+        profit.GetComponent<TextMeshProUGUI>().text = "Money: " + displayprofit.ToString("0.0") + "K";
 
 
         if(findresults.GetComponent<FindResult>().positive == 3)
@@ -55,5 +57,13 @@ public class DisplayResults : MonoBehaviour
 
         starrating.GetComponent<Image>().sprite = stars[findfeedbackdata.GetComponent<FeedbackData>().StarRating];
 
+    }
+    public void money()
+    {
+        if(once)
+        {
+            MI.money += (int)findfeedbackdata.GetComponent<FeedbackData>().profit;
+            once = false;
+        }
     }
 }

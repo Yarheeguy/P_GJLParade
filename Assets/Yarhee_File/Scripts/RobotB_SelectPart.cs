@@ -1,10 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RobotB_SelectPart : MonoBehaviour
 {
-    [SerializeField] GameObject part;
+    [SerializeField] GameObject robot;
+    [SerializeField] Image part;
 
     [SerializeField] Sprite partsprite;
 
@@ -14,11 +17,11 @@ public class RobotB_SelectPart : MonoBehaviour
 
     public void changepart()
     {
-        part.GetComponent<SpriteRenderer>().sprite = partsprite;
+        part.sprite = partsprite;
 
-        part.GetComponent<RobotB_PartData>().Functionality = PartFunctionality;
-        part.GetComponent<RobotB_PartData>().Apperance = PartApperance;
-        part.GetComponent<RobotB_PartData>().Extra = PartExtra;
+        robot.GetComponent<RobotB_PartData>().Functionality = PartFunctionality;
+        robot.GetComponent<RobotB_PartData>().Apperance = PartApperance;
+        robot.GetComponent<RobotB_PartData>().Extra = PartExtra;
     }
     
 

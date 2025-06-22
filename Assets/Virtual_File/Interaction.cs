@@ -21,11 +21,17 @@ public class Interaction : MonoBehaviour
     {
         //walkable = Physics2D.Raycast(player.transform.position, Vector2.down, 1f,walk);
         hit = Physics2D.Raycast(player.transform.position, Vector2.down, 1f, interact);
-        
-        if (Input.GetKeyDown(KeyCode.E)&&hit&&!uiControl.active)
+
+        if(hit)
         {
-            uiControl.Open();
+            Collider2D col = Physics2D.OverlapCircle(player.transform.position, 2f, interact);
+            if (Input.GetKeyDown(KeyCode.E) && !uiControl.active&&col.gameObject.tag=="Portal")
+            {
+                uiControl.Open();
+            }
+
         }
+        
         if (uiControl.active&&!hit)
         {
             uiControl.Close();

@@ -101,7 +101,7 @@ public class OreSpawning : MonoBehaviour
         if (!once)
         {
             time += Time.deltaTime;
-            if (time >= 15)
+            if (time >= 8)
             {
                 time = 0;
                 once = true;
