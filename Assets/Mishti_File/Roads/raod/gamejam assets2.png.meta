@@ -1,0 +1,753 @@
+fileFormatVersion: 2
+guid: fbfaf45359e2fd143b9c8ebe91f7107c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -442763177677115058
+    second: gamejam assets2_0
+  - first:
+      213: 5836236408332790274
+    second: gamejam assets2_1
+  - first:
+      213: -987788563479936526
+    second: gamejam assets2_2
+  - first:
+      213: 9179076339696194461
+    second: gamejam assets2_3
+  - first:
+      213: -663024381598991249
+    second: gamejam assets2_4
+  - first:
+      213: 3628737495719984747
+    second: gamejam assets2_5
+  - first:
+      213: 8659019913284952329
+    second: gamejam assets2_6
+  - first:
+      213: 8256964631541657641
+    second: gamejam assets2_7
+  - first:
+      213: 3480886962996602440
+    second: gamejam assets2_8
+  - first:
+      213: 8838825727491026609
+    second: gamejam assets2_9
+  - first:
+      213: -8892159942760302192
+    second: gamejam assets2_10
+  - first:
+      213: 7754834163272599165
+    second: gamejam assets2_11
+  - first:
+      213: 86257178146475174
+    second: gamejam assets2_12
+  - first:
+      213: -705147244996681828
+    second: gamejam assets2_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gamejam assets2_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1c598f88baa42f0800000000000000
+      internalID: -987788563479936526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9012262dbb40b2870800000000000000
+      internalID: 8659019913284952329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_7
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920310ac591a69270800000000000000
+      internalID: 8256964631541657641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84663b410489e4030800000000000000
+      internalID: 3480886962996602440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_9
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beafa64b21d9aa70800000000000000
+      internalID: 8838825727491026609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09970dd05a3b89480800000000000000
+      internalID: -8892159942760302192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e7718c56027bb4f84bf1e8a1bf735d
+      internalID: -1930968561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574deb4a84ff47947b78269ba47b1d0a
+      internalID: -223197728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5d30446d556dc4793a5e947a348318
+      internalID: 1408349108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_23
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1937f5b2140fc64bb4086eb3245b60d
+      internalID: -1763888739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c3f3ca6a8e36d42839f396f96a2c90
+      internalID: -1477950149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f79ab89571bde545915a489de653ed9
+      internalID: -27630743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_27
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d495deb025c25428865d6fc7fbab17
+      internalID: 611214070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fd33a4ca01aa34c80c297d33659dd7
+      internalID: 1754515125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_30
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e098a1645586f4caca4d7892bb8617
+      internalID: 1489333917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc90aabf6413544a98c82ec4e7c8139
+      internalID: 1135758842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93d5604f3e4cda40a3880a0345d9a51
+      internalID: -1573151806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abfb20b023d2c64d84eb6b74ad8849c
+      internalID: -758444688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_36
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfef013bba10e647a8c01fbedee4307
+      internalID: 2034727034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_38
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fce665a283f53e4d8bd1fe87fff2db9
+      internalID: 1293760036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd38598955ce1647af252216531426f
+      internalID: 1117145558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac2cf3b02f4c074892ac231a8c2b81d
+      internalID: -803535495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d6559d6d74e5d48bc3dac655f4a65c
+      internalID: 378609597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_43
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b71f1cbbb70e734384f917fe75e160a
+      internalID: -287685342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamejam assets2_45
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27291c8044089548a8f463f8579b584
+      internalID: 1143586162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 76f46b62bc1c3bb479d65bfb4982abfb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gamejam assets2_0: -442763177677115058
+      gamejam assets2_1: 5836236408332790274
+      gamejam assets2_10: -8892159942760302192
+      gamejam assets2_11: 7754834163272599165
+      gamejam assets2_12: 86257178146475174
+      gamejam assets2_13: -705147244996681828
+      gamejam assets2_14: 1571538970
+      gamejam assets2_15: -215498534
+      gamejam assets2_16: 1545787436
+      gamejam assets2_17: -1930968561
+      gamejam assets2_18: -223197728
+      gamejam assets2_19: 1408349108
+      gamejam assets2_2: -987788563479936526
+      gamejam assets2_20: -1422494329
+      gamejam assets2_21: 177792860
+      gamejam assets2_22: -1419261900
+      gamejam assets2_23: -1763888739
+      gamejam assets2_24: -620582394
+      gamejam assets2_25: -1477950149
+      gamejam assets2_26: -27630743
+      gamejam assets2_27: 611214070
+      gamejam assets2_28: 1754515125
+      gamejam assets2_29: -214098076
+      gamejam assets2_3: 9179076339696194461
+      gamejam assets2_30: 1489333917
+      gamejam assets2_31: -308719750
+      gamejam assets2_32: -20945378
+      gamejam assets2_33: 1135758842
+      gamejam assets2_34: -1573151806
+      gamejam assets2_35: -758444688
+      gamejam assets2_36: 2034727034
+      gamejam assets2_37: 294597858
+      gamejam assets2_38: 1293760036
+      gamejam assets2_39: -270952296
+      gamejam assets2_4: -663024381598991249
+      gamejam assets2_40: 1117145558
+      gamejam assets2_41: -803535495
+      gamejam assets2_42: 378609597
+      gamejam assets2_43: -287685342
+      gamejam assets2_44: 1447769965
+      gamejam assets2_45: 1143586162
+      gamejam assets2_5: 3628737495719984747
+      gamejam assets2_6: 8659019913284952329
+      gamejam assets2_7: 8256964631541657641
+      gamejam assets2_8: 3480886962996602440
+      gamejam assets2_9: 8838825727491026609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
