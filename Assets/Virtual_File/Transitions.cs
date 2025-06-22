@@ -18,7 +18,6 @@ public class Transitions : MonoBehaviour
     public bool fout=false;
     public bool fhold = false;
     public bool tpn = false;
-    public UiControl ucl;
     public Teleport tp;
     // Start is called before the first frame update
     void Start()
@@ -54,32 +53,27 @@ public class Transitions : MonoBehaviour
     public void Zone0()
     {
         tp.idt = 0;
-        ucl.Close();
         tp.TeleportPlayer();
     }
 
     public void Zone1()
     {
         tp.idt = 1;
-        ucl.Close();
         tp.TeleportPlayer();
     }
     public void Zone2()
     {
         tp.idt = 2;
-        ucl.Close();
         tp.TeleportPlayer();
     }
     public void Zone3()
     {
         tp.idt = 3;
-        ucl.Close();
         tp.TeleportPlayer();
     }
     public void Zone4()
     {
         tp.idt = 4;
-        ucl.Close();
         tp.TeleportPlayer();
     }
     public void CrossFade()

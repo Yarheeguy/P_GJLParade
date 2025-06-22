@@ -6,10 +6,12 @@ public class Interaction : MonoBehaviour
 {
     public GameObject player;
     public bool hit;
+    public int toolid;
     public bool walkable;
     public LayerMask interact;
     public LayerMask walk;
     public UiControl uiControl;
+    public int id;
     void Start()
     {
     }
@@ -19,6 +21,7 @@ public class Interaction : MonoBehaviour
     {
         //walkable = Physics2D.Raycast(player.transform.position, Vector2.down, 1f,walk);
         hit = Physics2D.Raycast(player.transform.position, Vector2.down, 1f, interact);
+        
         if (Input.GetKeyDown(KeyCode.E)&&hit&&!uiControl.active)
         {
             uiControl.Open();

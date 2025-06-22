@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Teleport : MonoBehaviour
 {
@@ -10,10 +13,16 @@ public class Teleport : MonoBehaviour
     public int idt = 0;
     public bool teleporting = false;
     public Transitions trs;
+    public UiControl ucl;
+    public UnlockingAreas[] area;
+    public TMPro.TextMeshProUGUI zoneText;
+    public Material_Inventory mats;
+    public GameObject error;
+    public Interaction interaction;
     // Start is called before the first frame update
     void Start()
     {
-
+    
     }
 
     // Update is called once per frame
@@ -22,13 +31,32 @@ public class Teleport : MonoBehaviour
         if (trs.tpn)
             player.transform.position = teleportPoints[idt].transform.position;
     }
-    public void TeleportPlayer()
+    public async void TeleportPlayer()
     {
-        if (idt!=zoneID)
+        if (idt >= 2)
         {
-            teleporting = true;
-            zoneID =idt;
-            trs.CrossFade();
+            if (!area[idt - 2].isUnlocked)
+            {
+                
+                
+            }
+            if (area[idt - 2].isUnlocked)
+
+            {
+                areacheck();
+            }
         }
+        else areacheck();
+
     }
+    public void areacheck()
+    {
+            if (idt != zoneID)
+            {
+                ucl.Close();
+                teleporting = true;
+                zoneID = idt;
+                trs.CrossFade();
+            }
+    }    
 }

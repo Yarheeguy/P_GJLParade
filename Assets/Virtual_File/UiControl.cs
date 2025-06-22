@@ -53,7 +53,7 @@ public class UiControl : MonoBehaviour
     }
     public void Open()
     {
-       zoneui.SetActive(true);
+        zoneui.SetActive(true);
         active = true;
 
     }
@@ -76,6 +76,12 @@ public class UiControl : MonoBehaviour
         Time.timeScale = 1f;
         paused = false;
         delayed = true;
+    }
+    public void SceneSwitch()
+    {
+        SaveSystem.Save();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
+        Close();
     }
     public void Delay()
     { 
