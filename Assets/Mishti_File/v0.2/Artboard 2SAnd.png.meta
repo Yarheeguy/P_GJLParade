@@ -1,0 +1,1683 @@
+fileFormatVersion: 2
+guid: 313457bd488cbc9428bfb9da283d7a94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2805909717756163656
+    second: Artboard 2SAnd_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Artboard 2SAnd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dad064ceb3682d48aa5a015d546bc05
+      internalID: -1957014658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580586884c8c38b4aa91d82acff9d9d4
+      internalID: -1175403885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1316f343737f3fe4a9105559da552b3d
+      internalID: -2066992555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc6eddaf956f1f42afa4539c60372fb
+      internalID: -1498150983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8525f97e61f8946a92ea9807aa2ffc
+      internalID: 1732766208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6cb613766bdaf4995a8e803a5431f0
+      internalID: -888900258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8498bfb05c92f049bb167f2dfce8d76
+      internalID: -15086634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_7
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f595a1180292bba42993b857ab04d16e
+      internalID: -13037765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f4ddfe4d9de544eabf0b9a600f9760
+      internalID: 192595018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8c52914d73cb842bd4c76bf424a56b
+      internalID: -1209940371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3626ba97129e94faa89321dcfc83f9
+      internalID: 1658444947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2cbe49aed4a4c4db7ec6b040564f44
+      internalID: 1538246381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea994d7eee578e4c941490f22a9d6a7
+      internalID: 421041430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616201fa6d47bbb419ce3a05d6c338de
+      internalID: 140947592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4692bbd8a4e5d5b4cb3b9fb5961c3baf
+      internalID: -1943961509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_15
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4edc6945d4c23e4ba788a594fa2a6e3
+      internalID: -1616409851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbe1c4a832c7c649b7bd9efaa55c2cf
+      internalID: -1953378734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_17
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd513be4d9d1c0408b986c22b860766
+      internalID: -1147130612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_18
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cfb28cbd6d9294d9f10e5f1828377d
+      internalID: -640507810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_19
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2079
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4024dc0b8e27b4a8e034f5327e924e
+      internalID: 1515496694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834e6f6e7190c5248ad248a9508eb38d
+      internalID: 1929527850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76186553c53c22341b4830dd5430a29f
+      internalID: -794493881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741889be31b425a4ea66aa7632d78e6e
+      internalID: -200804307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_23
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6e6b38fde14ad4ab1410fb1026c427
+      internalID: 273329065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_24
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9b6016e88be20409da2dc63c6516b6
+      internalID: -200114871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea72d57a0216a641bc3be7085422781
+      internalID: -1378314620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_27
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9829d30d61b97f4a85f213d833bbf4c
+      internalID: 1636710456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_28
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f0e39286d4e304dbb80c4ff780bf72
+      internalID: -2133623837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_29
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f1eee3a5b67434ba0d9fb10b94bb4d
+      internalID: -141574452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c529f8ca671bf4c9aa1dd3fa6cf69f
+      internalID: 913048397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_31
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5801ceb8d202234a82ff69706bffb1a
+      internalID: -1779304387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_32
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0457ea82b4561f49953a09c4d9495bb
+      internalID: 148074625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_33
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbd4ea2d9445ad4e93bdf2d75d448d5
+      internalID: 1133194747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_34
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f66c0b4a4622647a8527d3b215d790
+      internalID: 1699163182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_35
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ed56f5752dff54281edaf962b4fdab
+      internalID: 2146841206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_36
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39969712f97e77c4c9ae16d3625c342a
+      internalID: 15272930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_37
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a25a69930307044a7d560b2e051975
+      internalID: 294044927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_38
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985d5f5245a899244b4f108d4c630dee
+      internalID: -192556671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_39
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1279
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4216be1ae3c04bb42953de48aa95e706
+      internalID: 824578330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac5157269bc794419f150316183583b
+      internalID: -1614682841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_41
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44705235864a83c499ea06de6d97b685
+      internalID: 1573299495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c590f1164fdb4684d9b5441923110d33
+      internalID: 806241555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_43
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca3e9f3ef661f14a86697f3a7a659c2
+      internalID: 361419528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09814fda9ac76994c8aed23c2c83a72d
+      internalID: 946691543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_45
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d46fe55e990e2247844070138bfbb04
+      internalID: -1635812226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_46
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f308faa044c772d4d92cb4e4cfa7d2d2
+      internalID: 1969922146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_47
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f591f27e78f054dbb862f621198526
+      internalID: 928380898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_48
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9a7f7e659c03e4287192a247c64938
+      internalID: -1733436825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_49
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 879
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851de890eb29b3147974320ede7a77c4
+      internalID: -1070664280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9298491062ac054c8c24e1b21e88c6a
+      internalID: -550159199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_51
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee541020ccd8fa46b03855f2efec378
+      internalID: -1443004528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_52
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63bb76797dc22c4f82193684caf1872
+      internalID: 988946329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_53
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909e730d997d65b45af0c6f8efb38c1d
+      internalID: -684523397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_54
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15abd7f096c00b24c9d1c5a1778299f2
+      internalID: 1252803823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_55
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ff21e4749f16943a3a45fec1a21235
+      internalID: 676949480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_56
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11967666ad57fa94bb67ab90322839be
+      internalID: 903949891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_57
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9e5c9264b938e46a47fc65e0dcb944
+      internalID: -535046431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_58
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cf01e360998a847a65c4329cb78831
+      internalID: 1490745438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_59
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 479
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20152779a11ec3a408ad0a1e9520ca0a
+      internalID: -135826471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f24dfdd8c9d90743a158ddda5491877
+      internalID: 206969125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365e2870c9f109c418fa6ea2192d75b9
+      internalID: 1609867351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_62
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8476f303fcfc57f4c9a0b830c3492dad
+      internalID: 1268378183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_63
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a34d65fe4a4dc84d883d2e2a4c802e0
+      internalID: -1917729377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_64
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004d0756c2531354ab6a2de1c7656552
+      internalID: 1098816690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_65
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f80aebf3ac17254c97ea3758c1e0cdf
+      internalID: 339575315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_66
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d11fb2df47716f4eae6a3ccb3d9c764
+      internalID: 249585161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_67
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b5b5761153fda45b2b1c51489f4a99
+      internalID: 1457204000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_68
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce792f2ce53b084e812d0356f2a3acd
+      internalID: -487600250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_69
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 79
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90710b7d480b21047825b0f319e1df76
+      internalID: 213139427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Artboard 2SAnd_26
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1679
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c81a8723835fbf4c8eb29ec9d800017
+      internalID: -1260714099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7e6a5b4654ca80f42be944c5f8a1846a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Artboard 2SAnd_0: -1957014658
+      Artboard 2SAnd_1: -1175403885
+      Artboard 2SAnd_10: 1658444947
+      Artboard 2SAnd_11: 1538246381
+      Artboard 2SAnd_12: 421041430
+      Artboard 2SAnd_13: 140947592
+      Artboard 2SAnd_14: -1943961509
+      Artboard 2SAnd_15: -1616409851
+      Artboard 2SAnd_16: -1953378734
+      Artboard 2SAnd_17: -1147130612
+      Artboard 2SAnd_18: -640507810
+      Artboard 2SAnd_19: 1515496694
+      Artboard 2SAnd_2: -2066992555
+      Artboard 2SAnd_20: 1929527850
+      Artboard 2SAnd_21: -794493881
+      Artboard 2SAnd_22: -200804307
+      Artboard 2SAnd_23: 273329065
+      Artboard 2SAnd_24: -200114871
+      Artboard 2SAnd_25: -1378314620
+      Artboard 2SAnd_26: -1260714099
+      Artboard 2SAnd_27: 1636710456
+      Artboard 2SAnd_28: -2133623837
+      Artboard 2SAnd_29: -141574452
+      Artboard 2SAnd_3: -1498150983
+      Artboard 2SAnd_30: 913048397
+      Artboard 2SAnd_31: -1779304387
+      Artboard 2SAnd_32: 148074625
+      Artboard 2SAnd_33: 1133194747
+      Artboard 2SAnd_34: 1699163182
+      Artboard 2SAnd_35: 2146841206
+      Artboard 2SAnd_36: 15272930
+      Artboard 2SAnd_37: 294044927
+      Artboard 2SAnd_38: -192556671
+      Artboard 2SAnd_39: 824578330
+      Artboard 2SAnd_4: 1732766208
+      Artboard 2SAnd_40: -1614682841
+      Artboard 2SAnd_41: 1573299495
+      Artboard 2SAnd_42: 806241555
+      Artboard 2SAnd_43: 361419528
+      Artboard 2SAnd_44: 946691543
+      Artboard 2SAnd_45: -1635812226
+      Artboard 2SAnd_46: 1969922146
+      Artboard 2SAnd_47: 928380898
+      Artboard 2SAnd_48: -1733436825
+      Artboard 2SAnd_49: -1070664280
+      Artboard 2SAnd_5: -888900258
+      Artboard 2SAnd_50: -550159199
+      Artboard 2SAnd_51: -1443004528
+      Artboard 2SAnd_52: 988946329
+      Artboard 2SAnd_53: -684523397
+      Artboard 2SAnd_54: 1252803823
+      Artboard 2SAnd_55: 676949480
+      Artboard 2SAnd_56: 903949891
+      Artboard 2SAnd_57: -535046431
+      Artboard 2SAnd_58: 1490745438
+      Artboard 2SAnd_59: -135826471
+      Artboard 2SAnd_6: -15086634
+      Artboard 2SAnd_60: 206969125
+      Artboard 2SAnd_61: 1609867351
+      Artboard 2SAnd_62: 1268378183
+      Artboard 2SAnd_63: -1917729377
+      Artboard 2SAnd_64: 1098816690
+      Artboard 2SAnd_65: 339575315
+      Artboard 2SAnd_66: 249585161
+      Artboard 2SAnd_67: 1457204000
+      Artboard 2SAnd_68: -487600250
+      Artboard 2SAnd_69: 213139427
+      Artboard 2SAnd_7: -13037765
+      Artboard 2SAnd_8: 192595018
+      Artboard 2SAnd_9: -1209940371
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
