@@ -19,4 +19,11 @@ public class FeedbackData : MonoBehaviour
 
     [SerializeField] public int StarRating;
 
+    private void Update()
+    {
+        if(StarRating < 0)
+        {
+            StarRating = 0;
+        }
+    }
 }

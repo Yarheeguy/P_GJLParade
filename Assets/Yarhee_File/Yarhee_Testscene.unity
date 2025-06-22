@@ -14014,9 +14014,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0409bc38fe4aaac4d8b8895be3a9a42a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Functionality: 
-  Apperance: 
-  Extra: 
+  Functionality: Heavy
+  Apperance: Grey
+  Extra: Peg Leg
 --- !u!1 &661954776
 GameObject:
   m_ObjectHideFlags: 0
@@ -34822,25 +34822,42 @@ MonoBehaviour:
   feedback2type: 0
   feedback3type: 0
   minmark1: 0
-  maxmark1: 3
+  maxmark1: 10
   keyword1:
-  - Tall
-  - Small
-  - Square
+  - Mouth
+  - No Mouth
+  - Can see
+  - No Face
+  - Three Eyes
+  - Complicated
+  - Heavy
+  - Plated
+  - One Arm
+  - Red Gloves
   markKeyword1: 0
   minmark2: 0
-  maxmark2: 4
+  maxmark2: 6
   keyword2:
-  - Red
-  - Brown
-  - Blue
+  - Grey
+  - Golden
+  - Rusty
   - Shiny
+  - Blue
+  - White
   markKeyword2: 0
   minmark3: 0
-  maxmark3: 2
+  maxmark3: 10
   keyword3:
-  - Triangle Mouth
+  - Bland
   - Have Claws
+  - Old
+  - Blue Cheeks
+  - Zombie
+  - Water-proof
+  - Diamond
+  - Buttons
+  - Peg Leg
+  - Have Boots
   markKeyword3: 0
   username:
   - Elinos12435
@@ -34883,26 +34900,71 @@ MonoBehaviour:
   commentnumber3: 0
   maxcomment: 5
   KeywordCommentF:
-  - The robot seems to be a little shorter, how about you make them <color=#FF5800>tall</color>,
-    but not too tall, like a skyscraper.
-  - Perhaps next time, make the robot a tiny bit <color=#FF5800>small</color>, I
-    have no space to store my current robot.
-  - My favourite shape is a <color=#FF5800>square</color>, I am hoping that you make
-    the next robot more blocky, like a classic robot.
+  - There is something missing on this robot, maybe a <color=#FF5800>mouth</color>?
+    if there's one already, I can't see it.
+  - Have you ever heard of 'I Have <color=#FF5800>No Mouth</color> but I Must Scream'?
+    it's quite a fascinating story. I recommend reading it.
+  - Problem with my robot? It keeps bumping into walls, I don't think it <color=#FF5800>can
+    see</color>. Maybe give it some eyeballs or something.
+  - I don't like faces, it's incredibly creepy, I hope the next face has <color=#FF5800>no
+    face</color>, no mouth, no eyes, just blank expression.
+  - What's better than two eyes? <color=#FF5800>three eyes!</color> humans are terrible
+    because they only have two eyes, three will make them better, make the robot
+    better!
+  - I am a very <color=#FF5800>complicated</color> guy, who like things that is all
+    over the place, the robot seems to simple for my liking. I want it to be advanced!
+  - Too light, I can pick it up like it's a feather, where's the weight? why isn't
+    it <color=#FF5800>heavy</color>?
+  - don't like anything complicated, prefer things to be smooth and easy to hold,
+    like square, <color=#FF5800>plated</color> metal inserted into the product, that's
+    what I want to see.
+  - I don't like the idea of robots being more like humans, it gives uncanny valley
+    vibes, how about less limbs? just give a robot only <color=#FF5800>one arm</color>
+    and that will work.
+  - Gloves is my obsession! and what robots should have is a pair of <color=#FF5800>red
+    gloves</color>? why? because it would look like a cool sentai mech robot from
+    of my favourite animes.
   KeywordCommentA:
-  - You know, I prefer the colour <color=#FF5800>red</color>, maybe give the next
-    robot a new paint job with a better colour.
-  - I wish this robot has a more rusty kind of appearance, but not actual rust, maybe
-    paint the robot <color=#FF5800>brown</color> and give it that rusty look.
+  - I don't like colours, not even black and white, but if there's one colour I like,
+    it's <color=#FF5800>grey</color>, it's just basic and that's what makes it good.
+  - I LOVE <color=#FF5800>GOLD</color>!!! it is the ultimate material, we use gold
+    to tell pure wealth, if you think these robots can have that, it would be amazing!
+  - This idea is a little... controversial, but I do like when stuff shows a bit
+    of rust, not bad rust, like a <color=#FF5800>rusty</color> style to show its
+    age.
+  - Robots should be <color=#FF5800>shiny</color>.
   - MAKE IT <color=#FF5800>BLUE</color>! I just want to make my friend Joseph mad,
     he hates that colour.
-  - Robots should be <color=#FF5800>shiny</color>.
+  - there might be something missing on this robot, I think its the lack of the colour
+    <color=#FF5800>white</color>. a great and pure colour that I use to paint everything
+    in my house, even the doors. Especially. The doors.
   KeywordCommentE:
-  - I really wish this robot looks like one of my favourite evil robots from a best
-    selling movie, like that terrifying <color=#FF5800>triangle mouth</color>, I
-    shook in fear when I saw his masked face.
-  - Do you know what this robot is missing? claws, this robot should <color=#FF5800>have
-    claws</color>.
+  - Sometimes, you just need to make things easy to use, no matter how <color=#FF5800>bland</color>
+    they are, if they easy to understand, I will buy it.
+  - Robot Stereotypes are fun, going beep boop, want to destroy humanity and <color=#FF5800>have
+    claws</color> that can make hard pinches. those are the kind of classic robots.
+  - New can be expensive nowadays, especially when prices are starting to increase,
+    I would rather buy something <color=#FF5800>old</color> than something new at
+    this point.
+  - for no reason whatsoever, I require for the next robot to have <color=#FF5800>blue
+    cheeks</color>! because why not?
+  - while robots are quite cool, I don't want to see a bucket of bolts, maybe give
+    it a costume, more... zombie-like, I know it's cliche'd, but I like <color=#FF5800>zombies</color>
+    more than robots.
+  - Sure, the robot is good, but can it go underwater? is it <color=#FF5800>water-proof</color>?
+    because I put my robot in my bathtub and it's completely broken, please fix this.
+  - I want my robot to shrine bright, bright than a flashlight, brighter than the
+    stars, I want it to shine bright like... a <color=#FF5800>diamond</color>! (or
+    at least the shape it)
+  - I want <color=#FF5800>buttons</color> on my robot, no wi-fi nonsene, no automatic
+    stuff, I want it so I can flip switch and press a round shape on my robot. can
+    you do that?
+  - ARRRGH! I AM A PIRATE AND THIS... WHATEVER YUR SELLING IS NOT PRIATE ENOUGH,
+    GIVE IT AN EYEPATH, A PARROT, OR MAYBE A <color=#FF5800>PEG LEG</color>, JUST
+    AS I HAVE, ARRGH!
+  - Unfortunately, the feed of my robot is getting dirty from all the hikings I go
+    with my robot, maybe the next robot should <color=#FF5800>have boots</color>
+    so it would be easier to walk on the mud.
   keycomment1: 
   keycomment2: 
   keycomment3: 
@@ -37101,9 +37163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0409bc38fe4aaac4d8b8895be3a9a42a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Functionality: 
-  Apperance: 
-  Extra: 
+  Functionality: Broken
+  Apperance: White
+  Extra: Zombie
 --- !u!1 &1786348557
 GameObject:
   m_ObjectHideFlags: 0
@@ -42940,9 +43002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0409bc38fe4aaac4d8b8895be3a9a42a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Functionality: 
-  Apperance: 
-  Extra: 
+  Functionality: Broken
+  Apperance: Grey
+  Extra: Zombie
 --- !u!1 &2016759197
 GameObject:
   m_ObjectHideFlags: 0
@@ -44080,9 +44142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0409bc38fe4aaac4d8b8895be3a9a42a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Functionality: 
-  Apperance: 
-  Extra: 
+  Functionality: One Arm
+  Apperance: Grey
+  Extra: Bland
 --- !u!1 &2105749506
 GameObject:
   m_ObjectHideFlags: 0

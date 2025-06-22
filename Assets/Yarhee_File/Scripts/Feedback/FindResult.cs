@@ -32,6 +32,9 @@ public class FindResult : MonoBehaviour
     [SerializeField] float maxprofitadd;
 
 
+    [SerializeField] int spamcontingicy;
+
+
 
     public void GetResult()
     {
@@ -144,22 +147,22 @@ public class FindResult : MonoBehaviour
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindEyes.GetComponent<RobotB_PartData>().Functionality)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindChest.GetComponent<RobotB_PartData>().Functionality)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindArms.GetComponent<RobotB_PartData>().Functionality)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindLegs.GetComponent<RobotB_PartData>().Functionality)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
         }
@@ -173,22 +176,22 @@ public class FindResult : MonoBehaviour
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindEyes.GetComponent<RobotB_PartData>().Apperance)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindChest.GetComponent<RobotB_PartData>().Apperance)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindArms.GetComponent<RobotB_PartData>().Apperance)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindLegs.GetComponent<RobotB_PartData>().Apperance)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
         }
@@ -202,22 +205,22 @@ public class FindResult : MonoBehaviour
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindEyes.GetComponent<RobotB_PartData>().Extra)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindChest.GetComponent<RobotB_PartData>().Extra)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindArms.GetComponent<RobotB_PartData>().Extra)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword2 == FindLegs.GetComponent<RobotB_PartData>().Extra)
             {
-                Feedback1Result = true;
+                Feedback2Result = true;
             }
 
         }
@@ -243,22 +246,22 @@ public class FindResult : MonoBehaviour
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindEyes.GetComponent<RobotB_PartData>().Functionality)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindChest.GetComponent<RobotB_PartData>().Functionality)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindArms.GetComponent<RobotB_PartData>().Functionality)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindLegs.GetComponent<RobotB_PartData>().Functionality)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
         }
@@ -272,22 +275,22 @@ public class FindResult : MonoBehaviour
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindEyes.GetComponent<RobotB_PartData>().Apperance)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindChest.GetComponent<RobotB_PartData>().Apperance)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindArms.GetComponent<RobotB_PartData>().Apperance)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindLegs.GetComponent<RobotB_PartData>().Apperance)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
         }
@@ -301,22 +304,22 @@ public class FindResult : MonoBehaviour
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindEyes.GetComponent<RobotB_PartData>().Extra)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindChest.GetComponent<RobotB_PartData>().Extra)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindArms.GetComponent<RobotB_PartData>().Extra)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
             if (findFeedbackData.GetComponent<FeedbackData>().Keyword3 == FindLegs.GetComponent<RobotB_PartData>().Extra)
             {
-                Feedback1Result = true;
+                Feedback3Result = true;
             }
 
         }
@@ -338,6 +341,8 @@ public class FindResult : MonoBehaviour
             profit2 = 0;
             profit3 = 0;
 
+            spamcontingicy = spamcontingicy + 1;
+
             if(findFeedbackData.GetComponent<FeedbackData>().StarRating != 0)
             {
                 findFeedbackData.GetComponent<FeedbackData>().StarRating = findFeedbackData.GetComponent<FeedbackData>().StarRating - 1;
@@ -351,6 +356,8 @@ public class FindResult : MonoBehaviour
             profit2 = Random.Range(minprofitadd, maxprofitadd);
             profit3 = 0;
 
+            spamcontingicy = 0;
+
             findFeedbackData.GetComponent<FeedbackData>().StarRating = findFeedbackData.GetComponent<FeedbackData>().StarRating + 1;
         }
 
@@ -359,6 +366,8 @@ public class FindResult : MonoBehaviour
             profit1 = Random.Range(minprofitadd, maxprofitadd);
             profit2 = Random.Range(minprofitadd, maxprofitadd);
             profit3 = Random.Range(minprofitadd, maxprofitadd);
+
+            spamcontingicy = 0;
 
             findFeedbackData.GetComponent<FeedbackData>().StarRating = findFeedbackData.GetComponent<FeedbackData>().StarRating + 2;
         }
@@ -369,13 +378,19 @@ public class FindResult : MonoBehaviour
             profit2 = 0;
             profit3 = 0;
 
+            spamcontingicy = spamcontingicy + 1;
+
             if (findFeedbackData.GetComponent<FeedbackData>().StarRating !>= 1)
             {
                 findFeedbackData.GetComponent<FeedbackData>().StarRating = findFeedbackData.GetComponent<FeedbackData>().StarRating - 2;
             }
         }
 
-        findFeedbackData.GetComponent<FeedbackData>().profit = findFeedbackData.GetComponent<FeedbackData>().profit + profit1 + profit2 + profit3;
+
+        if(spamcontingicy <= 2)
+        {
+            findFeedbackData.GetComponent<FeedbackData>().profit = findFeedbackData.GetComponent<FeedbackData>().profit + profit1 + profit2 + profit3;
+        }
 
     }
 

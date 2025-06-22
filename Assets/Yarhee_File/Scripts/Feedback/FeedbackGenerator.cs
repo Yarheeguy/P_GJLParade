@@ -158,4 +158,40 @@ public class FeedbackGenerator : MonoBehaviour
         Displayfeedback.SetActive(true);
         
     }
+
+
+    private void Update()
+    {
+        if(usernamenumber1 == usernamenumber2)
+        {
+            usernamenumber1 = Random.Range(0, maxusernames);
+        }
+
+        if(usernamenumber1 == usernamenumber3)
+        {
+            usernamenumber1 = Random.Range(0, maxusernames);
+        }
+
+        if(usernamenumber3 == usernamenumber2)
+        {
+            usernamenumber2 = Random.Range(0, maxusernames);
+        }
+
+        if (commentnumber1 == commentnumber2)
+        {
+            commentnumber1 = Random.Range(0, maxcomment);
+        }
+
+        if (commentnumber1 == commentnumber3)
+        {
+            commentnumber1 = Random.Range(0, maxcomment);
+        }
+
+        if (commentnumber3 == commentnumber2)
+        {
+            commentnumber2 = Random.Range(0, maxcomment);
+        }
+
+
+    }
 }
