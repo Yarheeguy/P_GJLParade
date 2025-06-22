@@ -372,7 +372,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Artboard 4_0: 3922244624772197832
+      Artboard 4_1: -1419416027978980743
+      Artboard 4_2: -3362174542304143107
+      Artboard 4_3: 2913966406594601969
+      Artboard 4_4: -6718372545918142643
+      Artboard 4_5: -4680931775007083592
+      Artboard 4_6: -6156669509546164290
+      Artboard 4_7: -8480256001876537567
+      Artboard 4_8: 1255272288133751085
+      Artboard 4_9: -528418364925907330
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
